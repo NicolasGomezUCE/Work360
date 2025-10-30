@@ -14,4 +14,28 @@ public class ReservationRequest {
     private Long spaceId;
     private LocalDateTime startDatetime;
     private LocalDateTime endDatetime;
+
+    public Long getSpaceId() {
+        return spaceId;
+    }
+
+    public void setSpaceId(Long spaceId) {
+        this.spaceId = spaceId;
+    }
+
+    public LocalDateTime getStartDatetime() {
+        return startDatetime;
+    }
+
+    public void setStartDatetime(LocalDateTime startDatetime) {
+        this.startDatetime = startDatetime;
+    }
+
+    public LocalDateTime getEndDatetime() {
+        return endDatetime;
+    }
+
+    public void setEndDatetime(LocalDateTime endDatetime) {
+        this.endDatetime = endDatetime;
+    }
 }
